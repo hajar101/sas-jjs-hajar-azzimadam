@@ -19,11 +19,6 @@
 
 > Quelle est la différence fondamentale entre `let`, `const` et `var` en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -31,11 +26,6 @@
 
 > Quels sont les 7 types primitifs de données en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -43,11 +33,7 @@
 
 > Que signifie `typeof null` en JavaScript, et pourquoi est-ce considéré comme une erreur historique ?
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -55,11 +41,6 @@
 
 > Quelle est la différence entre l'opérateur d'égalité souple `==` et l'opérateur d'égalité stricte `===` ? Lequel faut-il privilégier ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -67,11 +48,6 @@
 
 > Que se passe-t-il si j'essaie de changer la valeur d'une variable déclarée avec `const` ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -79,11 +55,6 @@
 
 > Comment JavaScript gère-t-il l'addition entre un nombre et une chaîne de caractères (ex: `5 + "5"`) ? Comment appelle-t-on ce phénomène ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -91,11 +62,6 @@
 
 > À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique.
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -103,11 +69,6 @@
 
 > Quelle est la différence entre `&&` (ET logique) et `||` (OU logique) dans une condition ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -115,11 +76,7 @@
 
 > Est-il possible d'utiliser une condition `switch` à la place d'une série de `if / else if` ? Dans quel cas est-ce préférable ?
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -127,11 +84,7 @@
 
 > Qu'est-ce qu'une valeur "falsy" en JavaScript ? Citez 3 exemples.
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 
 ## ✅ Validation de la recherche
