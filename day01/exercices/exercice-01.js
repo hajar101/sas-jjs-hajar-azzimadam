@@ -11,10 +11,13 @@
  * 31.4
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day01/exercices/exercice-01.js
+ * ▶️ Commande : node day01/exercices/exercnodeice-01.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const PI = 3.14;
+let rayon = 5;
+let perimetre = 2 * PI * rayon;
+console.log(perimetre);
