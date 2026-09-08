@@ -41,6 +41,9 @@
 
 > Quelle est la différence entre l'opérateur d'égalité souple `==` et l'opérateur d'égalité stricte `===` ? Lequel faut-il privilégier ?
 
+[== est l'opérateur d'égalité avec conversion implicite des types. JavaScript peut convertir les valeurs avant de les comparer.
+=== est l'opérateur d'égalité stricte. Il compare la valeur et le type sans effectuer cette conversion.]
+
 
 ---
 
@@ -55,20 +58,34 @@
 
 > Comment JavaScript gère-t-il l'addition entre un nombre et une chaîne de caractères (ex: `5 + "5"`) ? Comment appelle-t-on ce phénomène ?
 
+L'opérateur + peut effectuer une addition numérique ou une concaténation de chaînes.
+Lorsque l'une des valeurs est une chaîne de caractères, JavaScript convertit généralement l'autre valeur en chaîne et effectue une concaténation.
 
+Exemple
+
+let resultat = 5 + "5";
+console.log(resultat);
+console.log(typeof resultat);
+
+Résultat :
+
+55
+string
 ---
 
 ### Question 07
 
-> À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique.
+> À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique ?
 
-
+retourne le reste de la division du premier nombre par le deuxième.Il est notamment utilisé pour déterminer si un nombre est pair ou impair.
 ---
 
 ### Question 08
 
 > Quelle est la différence entre `&&` (ET logique) et `||` (OU logique) dans une condition ?
 
+&& est l'opérateur logique ET. Il nécessite que les deux conditions soient vraies pour que l'expression soit vraie.
+|| est l'opérateur logique OU. Il suffit qu'au moins une des conditions soit vraie.
 
 ---
 
@@ -76,7 +93,9 @@
 
 > Est-il possible d'utiliser une condition `switch` à la place d'une série de `if / else if` ? Dans quel cas est-ce préférable ?
 
+if / else if permet de tester des conditions générales ou complexes.
 
+switch permet principalement de comparer une expression à plusieurs valeurs précises avec des clauses case.
 
 ---
 
