@@ -3,10 +3,9 @@
  * JOUR 01 · EXERCICE 09 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
  * LOGIQUE DE CONNEXION (ET / OU)
  * ─────────────────────────────────────────────────────────────
- *
  * 🎯 MISSION
- * Un utilisateur tente d'accéder au back-office. Déclarez trois variables : estAdmin = false, estModerateur = true, et motDePasseValide = true. L'accès est accordé si l'utilisateur a un mot de passe valide ET qu'il est SOIT admin SOIT modérateur.
- *
+ * Un utilisateur tente d'accéder au back-office. 
+Déclarez trois variables : estAdmin = false, estModerateur = true, et motDePasseValide = true. L'accès est accordé si l'utilisateur a un mot de passe valide ET qu'il est SOIT admin SOIT modérateur.
  * RÉSULTAT ATTENDU
  * Accès Accordé
  *
@@ -17,3 +16,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let estadmin=false;
+let estmoderateur=true;
+let motdepassevalide=true;
+
+if(motdepassevalide && (estadmin || estmoderateur)){
+  console.log("Accès Accordé");
+}else{
+  console.log("erreur d'accés");
+}
+
