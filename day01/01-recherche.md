@@ -19,10 +19,13 @@
 
 > Quelle est la différence fondamentale entre `let`, `const` et `var` en JavaScript ?
 
+<<<<<<< HEAD
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+=======
+>>>>>>> 6944e7761bd068b25bc543c478040d90713139a2
 
 ---
 
@@ -30,11 +33,6 @@
 
 > Quels sont les 7 types primitifs de données en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -42,11 +40,7 @@
 
 > Que signifie `typeof null` en JavaScript, et pourquoi est-ce considéré comme une erreur historique ?
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -54,11 +48,9 @@
 
 > Quelle est la différence entre l'opérateur d'égalité souple `==` et l'opérateur d'égalité stricte `===` ? Lequel faut-il privilégier ?
 
-- [ ] J'ai recherché et compris la notion.
+[== est l'opérateur d'égalité avec conversion implicite des types. JavaScript peut convertir les valeurs avant de les comparer.
+=== est l'opérateur d'égalité stricte. Il compare la valeur et le type sans effectuer cette conversion.]
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -66,11 +58,6 @@
 
 > Que se passe-t-il si j'essaie de changer la valeur d'une variable déclarée avec `const` ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -78,35 +65,34 @@
 
 > Comment JavaScript gère-t-il l'addition entre un nombre et une chaîne de caractères (ex: `5 + "5"`) ? Comment appelle-t-on ce phénomène ?
 
-- [ ] J'ai recherché et compris la notion.
+L'opérateur + peut effectuer une addition numérique ou une concaténation de chaînes.
+Lorsque l'une des valeurs est une chaîne de caractères, JavaScript convertit généralement l'autre valeur en chaîne et effectue une concaténation.
 
-**Ma réponse :**
+Exemple
 
-> À compléter avec mes propres mots.
+let resultat = 5 + "5";
+console.log(resultat);
+console.log(typeof resultat);
 
+Résultat :
+
+55
+string
 ---
 
 ### Question 07
 
-> À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique.
+> À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+retourne le reste de la division du premier nombre par le deuxième.Il est notamment utilisé pour déterminer si un nombre est pair ou impair.
 ---
 
 ### Question 08
 
 > Quelle est la différence entre `&&` (ET logique) et `||` (OU logique) dans une condition ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
+&& est l'opérateur logique ET. Il nécessite que les deux conditions soient vraies pour que l'expression soit vraie.
+|| est l'opérateur logique OU. Il suffit qu'au moins une des conditions soit vraie.
 
 ---
 
@@ -114,11 +100,9 @@
 
 > Est-il possible d'utiliser une condition `switch` à la place d'une série de `if / else if` ? Dans quel cas est-ce préférable ?
 
-- [ ] J'ai recherché et compris la notion.
+if / else if permet de tester des conditions générales ou complexes.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
+switch permet principalement de comparer une expression à plusieurs valeurs précises avec des clauses case.
 
 ---
 
@@ -126,11 +110,7 @@
 
 > Qu'est-ce qu'une valeur "falsy" en JavaScript ? Citez 3 exemples.
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 
 ## ✅ Validation de la recherche

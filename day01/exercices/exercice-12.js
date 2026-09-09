@@ -17,10 +17,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6944e7761bd068b25bc543c478040d90713139a2
 const annee = 2024;
 if ((annee % 4 == 0 && annee % 100 != 0)|| annee % 400 == 0) {
     console.log("est une année bissextile.");}
     else{
         console.log("n'est pas une année bissextile.");
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 6944e7761bd068b25bc543c478040d90713139a2
