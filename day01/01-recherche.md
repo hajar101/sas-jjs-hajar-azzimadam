@@ -19,7 +19,6 @@
 
 > Quelle est la différence fondamentale entre `let`, `const` et `var` en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 

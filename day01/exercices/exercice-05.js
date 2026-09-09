@@ -19,7 +19,7 @@
 // 2. Écris ta solution sous cette ligne.
 let nombre = 15;
 if (nombre % 2 === 0) {
-  console.log("Pair");
-} else {
+  console.log("Pair");}
+   else {
   console.log("Impair");
 }//console.log b7al printf

@@ -26,4 +26,3 @@ if(motdepassevalide && (estadmin || estmoderateur)){
 }else{
   console.log("erreur d'accés");
 }
-
