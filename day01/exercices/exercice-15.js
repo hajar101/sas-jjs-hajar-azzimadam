@@ -17,4 +17,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+/*et prix = "  349.99 MAD  ";
+prix = prix.trim();
+prix = parseFloat(prix);
+prix = prix * 2;
+console.log(prix);*/
+
+let prix= " 349.99 ";
+prix= Number(prix.trim().replace("MAD", ""));
+console.log(prix * 2);
+
