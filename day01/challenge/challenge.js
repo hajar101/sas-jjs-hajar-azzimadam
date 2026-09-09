@@ -20,5 +20,17 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+let montantEmprunte = 100000;
+let revenuMensuel = 8000;
+let mensualiteEstimee = montantEmprunte /24;
+
+if (mensualiteEstimee <= revenuMensuel * 0.3) {
+    console.log("Prêt accordé. Mensualité : " + mensualiteEstimee + " MAD");
+} else {
+    if (revenuMensuel > 10000) {
+        console.log("Vous pouvez augmenter la durée du prêt pour être éligible.");
+    } else {
+        console.log("Prêt refusé");
+    }
+}
