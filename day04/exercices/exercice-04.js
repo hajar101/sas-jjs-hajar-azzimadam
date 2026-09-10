@@ -1,19 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 02 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
- * CONJECTURE DE SYRACUSE (COLLATZ)
+ * JOUR 03 · EXERCICE 04 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * MAJORITÉ
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez N = 15.
- * - Si N est pair, on le divise par 2.
- * - Si N est impair, on le multiplie par 3 et on ajoute 1.
- * Répétez jusqu'à ce que N vaille 1. Comptez le nombre d'étapes (itérations) nécessaires pour arriver à 1.
+ * Créez une fonction estMajeur(age) qui retourne true si l'âge est >= 18, sinon false.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
- * ▶️ Commande : node day02/exercices/exercice-18.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-04
+ * ▶️ Commande : node day03/exercices/exercice-04.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+// TODO: écris ta solution ici.

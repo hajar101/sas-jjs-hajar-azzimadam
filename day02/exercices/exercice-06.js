@@ -14,6 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+let number;
 do {
     number = Number(prompt("Veuillez entrer un nombre:\n "));
 } while (number !==7);

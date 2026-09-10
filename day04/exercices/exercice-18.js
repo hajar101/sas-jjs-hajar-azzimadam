@@ -1,19 +1,18 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 02 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
- * CONJECTURE DE SYRACUSE (COLLATZ)
+ * JOUR 03 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * CURRYFICATION (CURRYING)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez N = 15.
- * - Si N est pair, on le divise par 2.
- * - Si N est impair, on le multiplie par 3 et on ajoute 1.
- * Répétez jusqu'à ce que N vaille 1. Comptez le nombre d'étapes (itérations) nécessaires pour arriver à 1.
+ * Créez une fonction multiplicateur(facteur) qui retourne une fonction prenant un argument nombre et retournant nombre * facteur.
+ * Testez avec : const double = multiplicateur(2); console.log(double(10)); // 20.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
- * ▶️ Commande : node day02/exercices/exercice-18.js
+ * ▶️ Commande : node day03/exercices/exercice-18.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+// TODO: écris ta solution ici.

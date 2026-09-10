@@ -1,24 +1,18 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 02 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * LA FACTORIELLE
+ * JOUR 03 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * LE DÉTECTEUR DE PALINDROME (LOGIQUE DE BASE)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Calculez la factorielle de 6 (écrit 6! = 6 * 5 * 4 * 3 * 2 * 1) avec une boucle.
- *
- * RÉSULTAT ATTENDU
- * 720
+ * Créez une fonction estPalindrome(mot) (vous pouvez ignorer les majuscules et espaces pour l'instant) qui retourne true si le mot se lit dans les deux sens (ex: "radar").
+ * Indice : vous pouvez utiliser une boucle for à l'envers ou comparer les indices.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-10
- * ▶️ Commande : node day02/exercices/exercice-10.js
+ * ▶️ Commande : node day03/exercices/exercice-10.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let factorielle = 1;
-for (let i = 1; i <= 6; i++) {
-    factorielle *= i;
-}
-console.log(factorielle);p
+// TODO: écris ta solution ici.

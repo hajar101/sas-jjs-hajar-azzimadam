@@ -1,29 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 02 · EXERCICE 13 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * SUITE DE FIBONACCI
+ * JOUR 03 · EXERCICE 13 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * GÉNÉRATEUR DE MOT DE PASSE FACTICE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Générez et affichez les 10 premiers nombres de la suite de Fibonacci. (La suite commence par 0, 1. Ensuite, chaque nombre est la somme des deux précédents : 0, 1, 1, 2, 3, 5, 8, 13...).
+ * Écrivez une fonction genererMotDePasse(longueur) qui génère et retourne une chaîne aléatoire contenant X fois la lettre "A" ou un chiffre aléatoire. (Utilisez Math.random()).
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-13
- * ▶️ Commande : node day02/exercices/exercice-13.js
+ * ▶️ Commande : node day03/exercices/exercice-13.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-let num1=0;
-let num2=1;
-let temp;
-console.log(num1);
-console.log(num2);
-
-for (let i = 3; i <= 10; i++) {
-    temp = num1 + num2;
-    console.log(temp);
-    num1 = num2;
-    num2 = temp;
-}

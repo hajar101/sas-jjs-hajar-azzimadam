@@ -1,19 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 02 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
- * CONJECTURE DE SYRACUSE (COLLATZ)
+ * JOUR 03 · EXERCICE 12 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * LE CALLBACK BASIQUE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez N = 15.
- * - Si N est pair, on le divise par 2.
- * - Si N est impair, on le multiplie par 3 et on ajoute 1.
- * Répétez jusqu'à ce que N vaille 1. Comptez le nombre d'étapes (itérations) nécessaires pour arriver à 1.
+ * Créez une fonction executerOperation(a, b, operation). operation sera une fonction passée en argument. Appelez : executerOperation(5, 3, multiplier) (en utilisant la fonction multiplier créée plus tôt).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
- * ▶️ Commande : node day02/exercices/exercice-18.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-12
+ * ▶️ Commande : node day03/exercices/exercice-12.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+// TODO: écris ta solution ici.
