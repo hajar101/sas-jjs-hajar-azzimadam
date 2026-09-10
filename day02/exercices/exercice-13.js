@@ -21,8 +21,8 @@ console.log(num1);
 console.log(num2);
 
 for (let i=2; i<10; i++){
-    let nextNum = num1 + num2;
-    console.log(nextNum);
+    let temp = num1 + num2;
+    console.log(temp);
     num1 = num2;
-    num2 = nextNum;
+    num2 = temp;
 }
