@@ -20,4 +20,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let height = 5;
+for (let i = 1; i <= height; i++) {
+    let line = '';
+    for (let j = 1; j <= height - i; j++) {
+        line += ' ';
+    }
+    for (let k = 1; k <= 2 * i - 1; k++) {
+        line += '*';
+    }
+    console.log(line);
+}
