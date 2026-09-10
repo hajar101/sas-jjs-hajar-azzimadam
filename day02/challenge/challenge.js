@@ -21,4 +21,6 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let codesecre=739
+
+.toExponential..codesecrem;lk,ijohu
