@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+for (let n = 100; n <= 999; n++) {
+
+    let chiffres = n.toString();
+
+    let a = Number(chiffres[0]);
+    let b = Number(chiffres[1]);
+    let c = Number(chiffres[2]);
+
+    let somme = a ** 3 + b ** 3 + c ** 3;
+
+    if (somme == n) {
+        console.log(n);
+    }
+}
