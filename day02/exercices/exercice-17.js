@@ -14,3 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+let totalitems=45;
+let page=1;
+while (totalitems > 0) {
+let items = 10;
+if (totalitems < 10) {
+    items = totalitems;
+}console.log("Scraping page " + page + " (" + items + " items)");
+
+    totalitems = totalitems - items;
+    page++;
+}
