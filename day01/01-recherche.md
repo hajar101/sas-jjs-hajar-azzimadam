@@ -58,6 +58,11 @@
 
 > Que se passe-t-il si j'essaie de changer la valeur d'une variable déclarée avec `const` ?
 
+const age = 19;
+age = 20;
+
+TypeError: Assignment to constant variable.
+
 
 ---
 
@@ -109,11 +114,15 @@ switch permet principalement de comparer une expression à plusieurs valeurs pr�
 ### Question 10
 
 > Qu'est-ce qu'une valeur "falsy" en JavaScript ? Citez 3 exemples.
-
-
+est une valeur qui est considérée comme fausse (false) lorsqu'elle est utilisée dans une condition if
+3 exemples :
+false
+0
+""
 
 
 ## ✅ Validation de la recherche
 
 - [ ] Je peux expliquer au moins trois réponses sans lire mes notes.
 - [ ] J'ai noté les notions que je dois encore clarifier.
+ 
