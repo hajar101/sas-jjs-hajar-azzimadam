@@ -16,10 +16,15 @@
 // 2. Écris ta solution sous cette ligne.
 
 let nb = 29;
+let a=0;
 for (let i = 2; i <= 28; i++) {
     if (nb % i === 0) {
-        console.log("29 n'est pas premier");
+        a++;
         break;
+      console.log("29 n'est pas un nombre premier");
     }
 }
-console.log("29 est un nombre premier");
+
+if(a === 0) {
+  console.log("29 est un nombre premier");
+}
