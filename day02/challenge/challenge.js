@@ -21,6 +21,15 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-let codesecre=739
-
-.toExponential..codesecrem;lk,ijohu
+let codesecre=739;
+for (let c1 = 0; c1 <= 9; c1++) {
+    for (let c2 = 0; c2 <= 9; c2++) {
+        for (let c3 = 0; c3 <= 9; c3++) {
+            let codetest = c1 * 100 + c2 * 10 + c3;
+            if (codetest === codesecre) {
+                console.log("Code trouvé : " + codetest);
+                break;
+            }
+        }
+    }
+}
