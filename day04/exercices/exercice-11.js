@@ -26,4 +26,4 @@ function calculerFactorielle(n) {
     }
     return factorielle;
 }
-console.log(calculerFactorielle(4)); 
+console.log(calculerFactorielle(4));
