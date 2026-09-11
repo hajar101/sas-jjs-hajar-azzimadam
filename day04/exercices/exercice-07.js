@@ -15,3 +15,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function carre(x) {
+    return x * x;
+}
+function sommecarre(a,b){
+    return carre(a)+carre(b);
+}
+console.log(sommecarre(2,3));

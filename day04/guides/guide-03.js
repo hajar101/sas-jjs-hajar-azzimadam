@@ -10,3 +10,7 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+const carre = (x) => {
+    return x * x;
+};

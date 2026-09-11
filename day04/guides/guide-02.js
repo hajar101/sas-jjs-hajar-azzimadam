@@ -10,3 +10,10 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+function test() {
+    let a = 19;
+}
+test();
+console.log(a);
+
+ReferenceError: a is not defined

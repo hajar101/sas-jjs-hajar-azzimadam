@@ -19,11 +19,7 @@
 
 > Quelle est la différence entre un *paramètre* et un *argument* d'une fonction ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
+Un paramètre est une variable définie dans la déclaration d'une fonction, tandis qu'un argument est la valeur donnée à ce paramètre lors de l'appel de la fonction
 
 ---
 
@@ -31,47 +27,33 @@
 
 > Quelle est la différence entre l'instruction `return` et `console.log()` dans une fonction ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+return renvoie une valeur que l'on peut réutiliser, tandis que console.log() affiche simplement une valeur dans la console.
 ---
 
 ### Question 03
 
 > Que se passe-t-il si l'on oublie le mot-clé `return` dans une fonction censée renvoyer une valeur ?
-
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+Sans return une fonction qui doit renvoyer une valeur retourne undefined
 ---
 
 ### Question 04
 
 > Qu'est-ce que la **portée (scope)** des variables en JavaScript ? Une variable définie dans une fonction avec `let` est-elle accessible à l'extérieur ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+La portée (scope) détermine où une variable peut être utilisée. Une variable déclarée avec let à l'intérieur d'une fonction est locale à cette fonction et n'est pas accessible à l'extérieur.
 ---
-
 ### Question 05
 
 > Quelle est la syntaxe d'une **fonction fléchée** (arrow function) par rapport à une fonction classique ?
+Fonction classique:
+function nom(paramètre) {
+    return résultat;
+}
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
+Fonction fléchée:
+const nom = (paramètre) => {
+    return résultat;
+}
 
 ---
 

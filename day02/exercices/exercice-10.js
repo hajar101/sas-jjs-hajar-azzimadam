@@ -21,4 +21,4 @@ let factorielle = 1;
 for (let i = 1; i <= 6; i++) {
     factorielle *= i;
 }
-console.log(factorielle);p
+console.log(factorielle);
