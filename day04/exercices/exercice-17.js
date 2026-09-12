@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function extrairePrixEtConvertir(chaineBrute) {
+    let prix = chaineBrute.replace(/[^0-9.]/g, "");
+
+    prix = Number(prix);
+
+    if (isNaN(prix)) {
+        return null;
+    }
+
+    return prix;
+}
+
+console.log(extrairePrixEtConvertir("   Prix: 15.99 $  "));
