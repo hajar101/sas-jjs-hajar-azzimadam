@@ -59,13 +59,11 @@ const nom = (paramètre) => {
 
 ### Question 06
 
-> Dans quel cas peut-on omettre les accolades `{}` et le mot-clé `return` dans une fonction fléchée ?
+> Dans quel cas peut-on mettre les accolades `{}` et le mot-clé `return` dans une fonction fléchée ?
 
-- [ ] J'ai recherché et compris la notion.
+oui c'est la fonction contient un seule instruction.
+ex: const double =x=> x*2;
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -73,11 +71,7 @@ const nom = (paramètre) => {
 
 > Qu'est-ce que le *Hoisting* (hissage) en JavaScript, et comment s'applique-t-il aux fonctions classiques `function nom()` versus les variables `const maFunc = () => {}` ?
 
-- [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -85,23 +79,14 @@ const nom = (paramètre) => {
 
 > Qu'est-ce qu'une fonction **Callback** ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+c'est fonction passé en argument a une autre fonction pour etre exécutée
+ex: setTimeput(moncallback,1000);
 ---
 
 ### Question 09
 
 > Peut-on donner une valeur par défaut à un paramètre (ex: `function saluer(nom = "Invité")`) ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
 
 ---
 
@@ -109,12 +94,7 @@ const nom = (paramètre) => {
 
 > Qu'est-ce que la *récursivité* en programmation ?
 
-- [ ] J'ai recherché et compris la notion.
-
-**Ma réponse :**
-
-> À compléter avec mes propres mots.
-
+c'est le principe d'une fonction qui s'appelle elle-meme jusqu'à atteindre une condition d'arret (calcule factorielle).
 
 ## ✅ Validation de la recherche
 

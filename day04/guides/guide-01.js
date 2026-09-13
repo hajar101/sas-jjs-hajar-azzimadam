@@ -9,7 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
 function saluer(nom) {
   return "Bonjour, " + nom + " !";
 }

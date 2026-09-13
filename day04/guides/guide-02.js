@@ -9,7 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
 function test() {
     let a = 19;
 }
