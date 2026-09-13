@@ -16,4 +16,4 @@ function test() {
 test();
 console.log(a);
 
-ReferenceError: a is not defined
+//*error

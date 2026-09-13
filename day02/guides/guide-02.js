@@ -9,7 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
 let N = 100;
 let a = 0;
 while (N >= 1) {
