@@ -15,4 +15,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function creerSigle(phrase) {
+    let mots = phrase.split(" ");
+    let resultat = "";
+
+    for (let i = 0; i < mots.length; i++) {
+        resultat = resultat + mots[i][0];
+    }
+
+    return resultat.toUpperCase();
+}
+
+console.log(creerSigle("Hyper Text Markup Language"));
+
+

@@ -27,5 +27,4 @@ function extrairePrixEtConvertir(chaineBrute) {
 
     return prix;
 }
-
 console.log(extrairePrixEtConvertir("   Prix: 15.99 $  "));

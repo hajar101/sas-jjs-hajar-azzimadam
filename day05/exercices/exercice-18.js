@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+function compter(texte) {
+    let compteur = 0;
+
+    for (let i = 0; i < texte.length; i++) {
+
+        if (texte[i] == "e" || texte[i] == "E") {
+            compteur++;
+        }
+    }
+    return compteur;
+}
+let paragraphe = "Bonjour, je suis Hajar. J'aime apprendre JavaScript.";
+console.log(compter(paragraphe));
+
+

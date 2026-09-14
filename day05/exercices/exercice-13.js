@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function formater(montant) {
+    montant = String(montant);
+    let resultat = "";
+
+    for (let i = montant.length; i > 0; i = i - 3) {
+        resultat = montant.slice(Math.max(0, i - 3), i) + " " + resultat;
+    }
+
+    return resultat.trim() + " MAD";
+}
+
+console.log(formater(1234567));
+
+

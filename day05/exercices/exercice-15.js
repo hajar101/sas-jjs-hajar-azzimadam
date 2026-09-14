@@ -15,4 +15,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function anagramme(mot1, mot2) {
+    let a = mot1.split("").sort().join("");
+    let b = mot2.split("").sort().join("");
+    return a === b;
+}
+console.log(anagramme("chien", "niche"));
+
+

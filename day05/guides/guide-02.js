@@ -7,6 +7,9 @@
  *
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
-'use strict';
 
-// TODO: écris ta solution ici.
+function verifier(phrase) {
+    return phrase.toLowerCase().includes("javascript");
+}
+console.log(verifier("J'apprends le JavaScript à YouCode"));
+

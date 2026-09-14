@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+function recupererAnnee(date) {
+    return date.slice(0, 4);
+}
+console.log(recupererAnnee("2024-10-15"));
+
+
+
+
