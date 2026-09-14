@@ -17,8 +17,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+
 function transformation(titre) {
     return titre.toLowerCase().trim().replaceAll(" ", "-").replaceAll(" !", "");
-}00
+}
 console.log(transformation("Les 10 secrets de JavaScript !"));
 
