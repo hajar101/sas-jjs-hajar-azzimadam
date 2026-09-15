@@ -14,4 +14,24 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function compter(tableau) {
+    let resultat = {};
+
+    for (let i = 0; i < tableau.length; i++) {
+
+        if (resultat[tableau[i]]) {
+            resultat[tableau[i]]++;
+        } else {
+            resultat[tableau[i]] = 1;
+        }
+    }
+
+    console.log(resultat);
+}
+
+let mots = ["pomme", "banane", "pomme", "orange", "banane", "pomme"];
+
+compter(mots);
+

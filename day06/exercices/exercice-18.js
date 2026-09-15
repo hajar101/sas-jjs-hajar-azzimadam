@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let tableau = [[1, 2], [3, 4], [5, 6]];
+
+let resultat = [];
+
+for (let i = 0; i < tableau.length; i++) {
+
+    for (let j = 0; j < tableau[i].length; j++) {
+
+        resultat.push(tableau[i][j]);
+    }
+}
+
+console.log(resultat);
+

@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function sansDoublons(tableau) {
+    let resultat = [];
+
+    for (let i = 0; i < tableau.length; i++) {
+        if (!resultat.includes(tableau[i])) {
+            resultat.push(tableau[i]);
+        }
+    }
+
+    return resultat;
+}
+console.log(sansDoublons([1, 2, 2, 3, 4, 4, 5]));

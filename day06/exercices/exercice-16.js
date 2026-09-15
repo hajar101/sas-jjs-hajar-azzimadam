@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+function filtrerNombres(tableau) {
+    let resultat = [];
+
+    for (let i = 0; i < tableau.length; i++) {
+
+        if (typeof tableau[i] === "number") {
+            resultat.push(tableau[i]);
+        }
+    }
+
+    return resultat;
+}
+let tableau = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5];
+
+console.log(filtrerNombres(tableau));

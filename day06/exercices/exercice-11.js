@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let Gtab = [];
+for (let i = 1; i <= 100; i++) {
+  Gtab.push(i);
+}
+
+let firstPage = Gtab.slice(0, 10);
+console.log(firstPage);
