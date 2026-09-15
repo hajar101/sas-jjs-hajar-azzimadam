@@ -18,9 +18,6 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-
-
 
 let panier = [101, 105, 101, 102];
 function ajouterAuPanier(id) {
