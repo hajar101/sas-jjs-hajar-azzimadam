@@ -19,4 +19,38 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+
+
+let panier = [101, 105, 101, 102];
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+function retirerDuPanier(id) {
+    for (let i = panier.length- 1; i >= 0; i--) {
+        if (panier[i] == id) {
+            panier.splice(i, 1);
+        }
+    }
+}
+function afficherQuantites() {
+
+    for (let i = 0; i < panier.length; i++) {
+
+        let compteur = 0;
+
+        for (let j = 0; j < panier.length; j++) {
+            if (panier[i] == panier[j]) {
+                compteur++;
+            }
+        }
+
+        console.log("Article " + panier[i] + " : " + compteur);
+    }
+}
+
+ajouterAuPanier(103);
+retirerDuPanier(101);
+console.log(panier);
+afficherQuantites();
+
