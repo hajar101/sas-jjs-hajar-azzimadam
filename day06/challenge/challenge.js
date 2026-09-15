@@ -14,7 +14,7 @@
  * 4. (Bonus) Créez une fonction afficherQuantites() qui compte et affiche le panier sous forme : Article 101 : 2 exemplaires, Article 105 : 1 exemplaire...
  *
  * 📖 Consigne détaillée : ./README.md
- * ▶️ Commande : node day05/challenge/challenge.js
+ * ▶️ Commande : node day06/challenge/challenge.js
  */
 'use strict';
 
